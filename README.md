@@ -4,6 +4,7 @@ This project is the implementation of the technical challenge called "Hell Trian
 I decided to implement it in Java 8 because it is the language I'm most familiar with 
 so I may implement it quicker. Depending on the size of the triangles to be read, 
 it may be necessary to use a more efficient language when dealing with arrays.
+I also decided not to go with a very complex project (maven, spring, etc) since this is a simple and specific issue that doesn't need that whole structure in order to work as asked on the issue's proposal.
 
 If you want to compile the class as a jar library to be imported on any other project, you may use the following command lines (from the project's root folder): 
 
