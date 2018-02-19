@@ -7,9 +7,9 @@ it may be necessary to use a more efficient language when dealing with arrays.
 
 If you want to compile the class as a jar library to be imported on any other project, you may use the following command lines (from the project's root folder): 
 
-	# javac -d bin src/com/b2wdigital/helltrianglechallenge/HellTriangleChallengeSolver.java
+	# javac -d . src/com/b2wdigital/helltrianglechallenge/HellTriangleChallengeSolver.java
 
-	# jar cf bin/HellTriangleChallengeSolver.jar .
+	# jar cf HellTriangleChallengeSolver.jar ./com
 
 The project is composed by a few files:
 
